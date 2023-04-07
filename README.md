@@ -4,6 +4,7 @@ AI Compass 是一个开源工具导航网站，旨在帮助开发者快速找到
 
 AI Compass 集成了：
 
+- ChatGPT
 - AI 设计
 - 文字编辑
 - 在线工具
