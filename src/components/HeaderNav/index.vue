@@ -46,7 +46,7 @@ async function fetchHitokoto() {
 </script>
 
 <template>
-  <div :class="leftClass" class="fixed right-0">
+  <div :class="leftClass" class="fixed right-0 z-1">
     <div class="nav-container flex justify-between items-center w-100% h-18 px-2 bg-#fff z-1">
       <div :class="classes" class="w-7 h-7 text-#888 hover:text-#df4f51 cursor-pointer transition-colors duration-300 ease-in" @click="toggleSiderCollapsed" />
       <div class="flex flex-auto justify-center items-center md:hidden pr-7">
