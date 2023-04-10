@@ -22,10 +22,9 @@ const flatMenuList = computed(() => {
 </script>
 
 <template>
-  <div>
-    <div class="p-4 pt-18 bg-#f9f9f9">
-      <NavList v-for="menu in flatMenuList" :key="menu.link" :list="menu.list" :name="menu.name" :icon="menu.icon" :link="menu.link" />
-    </div>
+  <div class="p-4 pt-18 bg-#f9f9f9">
+    <NavList v-for="menu in flatMenuList" :key="menu.link" :list="menu.list" :name="menu.name" :icon="menu.icon" :link="menu.link" />
+    <BackTop :visibility-height="200" />
   </div>
 </template>
 
