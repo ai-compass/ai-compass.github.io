@@ -18,7 +18,7 @@ const menuList: Menu[] = [
   {
     name: 'ChatGPT',
     icon: 'i-carbon:chat',
-    link: 'chatgpt',
+    link: 'chatGPT',
     list: [
       {
         name: 'chat.gpt.bz',
