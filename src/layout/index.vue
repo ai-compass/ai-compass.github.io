@@ -4,8 +4,6 @@ const appStore = useAppStore()
 
 const breakpoints = useBreakpoints(breakpointsTailwind)
 
-const isGreaterLg = breakpoints.greaterOrEqual('lg')
-const isSmallerLg = breakpoints.smaller('lg')
 const isGreaterMd = breakpoints.greaterOrEqual('md')
 const isSmallerMd = breakpoints.smaller('md')
 
