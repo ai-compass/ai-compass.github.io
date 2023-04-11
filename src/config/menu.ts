@@ -1246,12 +1246,24 @@ const menuList: Menu[] = [
   },
 ]
 
-export default menuList
+const getFlatMenuList = (menuList: Menu[]) => {
+  const flatMenuList: Menu[] = []
+  const flatMenu = (menu: Menu) => {
+    if (menu.children) {
+      menu.children.forEach((item: Menu) => {
+        flatMenu(item)
+      })
+    }
+    else {
+      flatMenuList.push(menu)
+    }
+  }
+  menuList.forEach((item: any) => {
+    flatMenu(item)
+  })
+  return flatMenuList
+}
 
-// [...Array.from(document.querySelector('#content > div.content > div > div > div:nth-child(6)').getElementsByClassName('url-card'))].map(el => {
-//     const name = el.querySelector('div.url-info.flex-fill > div > strong').innerText
-//     const icon = el.querySelector('div.url-img.rounded-circle.mr-2.d-flex.align-items-center.justify-content-center > img').src
-//     const href = el.querySelector('div > div > a').href
-//     const desc = el.querySelector('div.url-info.flex-fill > p').innerText
-//     return {name, icon, href, desc}
-// })
+export const flatMenuList = getFlatMenuList(menuList)
+
+export default menuList
