@@ -22,9 +22,40 @@ const menuList: Menu[] = [
     list: [
       {
         name: 'chat.gpt.bz',
-        icon: 'https://chat.gpt.bz/favicon.ico',
+        icon: '',
         href: 'https://chat.gpt.bz/',
         desc: '基于 GPT-3.5 的聊天机器人',
+      },
+    ],
+  },
+  {
+    name: 'AI 绘画',
+    icon: 'i-carbon:paint-brush',
+    link: 'ai-painting',
+    list: [
+      {
+        name: 'ops',
+        icon: 'https://moonvy.com/apps/ops/icon.svg',
+        href: 'https://moonvy.com/apps/ops/',
+        desc: 'OPS 提示词工作室 | 可视化编辑提示词 | 一键翻译 AIGC 提示词 | Midjourney 提示词',
+      },
+      {
+        name: 'NovelAI tag生成器',
+        icon: '',
+        href: 'https://aitag01.51pwn.com/indexes/aiTag01/',
+        desc: 'NovelAI tag生成器',
+      },
+      {
+        name: '魔咒百科词典',
+        icon: '',
+        href: 'https://aitag.top/',
+        desc: '魔法导论必备工具, 简单易用的AI绘画tag生成器',
+      },
+      {
+        name: 'AiTag生成工具',
+        icon: 'https://aitag.org/',
+        href: 'https://aitag.org/',
+        desc: 'AiTag生成工具',
       },
     ],
   },
