@@ -34,6 +34,12 @@ const menuList: Menu[] = [
     link: 'ai-painting',
     list: [
       {
+        name: '傻瓜式安装 Stable Diffusion Web UI',
+        icon: '',
+        href: 'https://cloud.tencent.com/developer/article/2258665?areaSource=103001.2&traceId=9ECVsOeEIhChIKy5Gyn8U',
+        desc: '基于腾讯云的傻瓜式安装 Stable Diffusion Web UI 教程',
+      },
+      {
         name: 'ops',
         icon: 'https://moonvy.com/apps/ops/icon.svg',
         href: 'https://moonvy.com/apps/ops/',
