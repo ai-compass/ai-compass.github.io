@@ -34,6 +34,12 @@ const menuList: Menu[] = [
     link: 'ai-painting',
     list: [
       {
+        name: 'AI 绘画咒语生成器',
+        icon: 'https://ai-compass.github.io/tag-generator/AI.JPG',
+        href: 'https://ai-compass.github.io/tag-generator',
+        desc: 'AI 绘画关键词生成器',
+      },
+      {
         name: '傻瓜式安装 Stable Diffusion Web UI',
         icon: '',
         href: 'https://cloud.tencent.com/developer/article/2258665?areaSource=103001.2&traceId=9ECVsOeEIhChIKy5Gyn8U',
